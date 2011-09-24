@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="utf-8">
+	<link href='http://fonts.googleapis.com/css?family=Droid+Serif:700,400,400italic,700italic' rel='stylesheet' type='text/css'>
+	<!--<link title="css" rel="stylesheet" type="text/css" href= "html5_tanka.css"/>-->
+	<link title="css" rel="stylesheet" type="text/css" href="main.css"/>
+ 
+    
+  
+	<title>短歌メーカー2011β</title>
+	
+</head>
+
+<body>
+	<center>
+	<br>
+
+<div id="sun01" class="sun"></div>
+
+	<header id="body">
+	
+   
+        <h1>
+      <div class="title">
+      短歌メーカーβ版だよ！
+      </div>
+      
+     <!-- <p id="tagCloudBtn">
+<a href="#blockTagCloud" id="blockTagCloud"><img src="/img/common/txt/tags.png" alt="短歌メーカーとは？" width="137" height="67" class="btn" /></a>
+</p> -->
+
+      
+      </h1>
+	
+	
+    </header>
+<div class="timeline2">
+		<br>
+		みんなで好きな短歌を作ろう！
+		<br>
+		かっこいい奴ができたらすかさずツイートして、盛り上がっている素振りを見せよう！
+		<br><br>
+
+		<div id="title">
+			<input type="text" id="theme" value="">
+			<input type="submit" id="submit" value="お題決定">
+		</div>
+		<br>
+		<div id="0">
+			<input type="text" id="text0" value=""> 
+			<input type="submit" id="submit0" value="OK"> 
+		</div>
+		<br>
+		<div id="1">
+			<input type="text" id="text1" value="">
+		    <input type="submit" id="submit1" value="OK">
+		</div>
+		<br>
+		<div id="2">
+			<input type="text" id="text2" value="">
+		    <input type="submit" id="submit2" value="OK">
+		</div>
+		<br>
+		<div id="3">
+			<input type="text" id="text3" value="">
+		    <input type="submit" id="submit3" value="OK">
+		</div>
+		<br>
+		<div id="4">
+			<input type="text" id="text4" value="">
+		    <input type="submit" id="submit4" value="OK">
+		</div>
+		<br>
+		<input type="submit" id="finish" value="結果表示">
+	
+	</div>
+
+	<br>
+	
+	<a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-lang="ja">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    
+    <a href="http://b.hatena.ne.jp/entry/" class="hatena-bookmark-button" data-hatena-bookmark-layout="standard" title="このエントリーをはてなブックマークに追加"><img src="http://b.st-hatena.com/images/entry-button/button-only.gif" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="http://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+    
+    <iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.facebook-japan.com%2F&layout=button_count&show_faces=false&width=100&action=like&colorscheme=light&height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;" allowTransparency="true"></iframe>
+	
+	
+	
+	<br><br>
+	
+	
+	
+	<div class="timeline">
+		
+		<script src="http://widgets.twimg.com/j/2/widget.js"></script>
+		<script>
+		new TWTR.Widget({
+		  version: 2,
+		  type: 'search',
+		  search: 'http://shindanmaker.com/155490',
+		  interval: 6000,
+		  title: '短文メーカーβ版だよ！',
+		  subject: 'みんなの短文結果',
+		  width: 'auto',
+		  height: 300,
+		  theme: {
+		    shell: {
+		      background: '#ffffff',
+		      color: '#444444'
+		    },
+		    tweets: {
+		      background: '#ffffff',
+		      color: '#444444',
+		      links: '#33ccff'
+		    }
+		  },
+		  features: {
+		    scrollbar: false,
+		    loop: false,
+		    live: true,
+		    hashtags: true,
+		    timestamp: true,
+		    avatars: true,
+		    behavior: 'all'
+		  }
+		}).render().start();
+		</script>
+			<div style="font-size: 1.1em; text-align: center;">
+	みんなの短文を検索 &raquo;&nbsp;
+		<a href="http://twitter.com/#!/search/http%3A%2F%2Fshindanmaker.com%2F155490" target="_blank">Twitter</a>　<a href="http://topsy.com/shindanmaker.com/155490" target="_blank">TOPSY</a>
+	</div>
+	<div style="text-align: right; padding-right: 5px; margin-top: 5px;">
+		&raquo;<a href="/c/report?id=155490" style="color: #999; font-size: 0.8em;">この短文について問題を報告する</a>
+	</div>
+	
+	
+	
+	<br><br><br>
+	
+	
+	
+	<div id="copyright" style="margin-top: 0px; width: 600px; font-size:9px">
+		Copyright &copy; 2011- Hatayama.INC, All rights reserved.（※この企業は非実在企業で全てフィクションで活動しております。）
+		<br><br>
+	</div>
+	
+	</center>
+
+<script>
+var help = document.getElementById("blockTagCloud");
+function clickHelp(e){
+	var element = document.createElement('div');
+	element.id = "aaa";
+	element.width = "984px";
+	element.height = "984px";
+	element.innerHTML = "hogehoge"; 
+	element.style.backgroundColor = 'black';
+	element.style.position = 'fixed';
+	element.style.zIndex = 1;
+	var objBody = document.getElementsByTagName("body").item(0); 
+	objBody.appendChild(element);
+	e.preventDefault();
+}
+help.addEventListener("click", clickHelp, false);
+</script>
+
+<script>
+	//イマココ
+	var current = -1;
+	//短歌の各文字数（判定用）
+	var tanka = [5,7,5,7,7];
+	//今打ってる文字数（デバッグ用？）
+	var out = document.getElementById('out');
+	
+	var text = new Array();
+	text[0] = document.getElementById('text0');
+	text[1] = document.getElementById('text1');
+	text[2] = document.getElementById('text2');
+	text[3] = document.getElementById('text3');
+	text[4] = document.getElementById('text4');
+	
+	var bt = new Array();
+	bt[0] = document.getElementById('submit0');
+	bt[1] = document.getElementById('submit1');
+	bt[2] = document.getElementById('submit2');
+	bt[3] = document.getElementById('submit3');
+	bt[4] = document.getElementById('submit4');
+	
+	var finish = document.getElementById('finish');
+	
+	for(var n = 0; n <= 4; n++){
+		text[n].disabled = true;
+	}
+	for(var n = 0; n <= 4; n++){
+		bt[n].disabled = true;
+	}
+	finish.disabled = true;
+	
+	text[0].disabled = false;
+	bt[0].disabled = false;
+	
+	
+	//WebSocketのインスタンス生成
+	var ws = new WebSocket('@@{Main.WebSocketEcho.listen()}');
+	
+    function init(){
+    	ws.send("clear");
+    }
+	
+	//init();
+	
+	//ここがスタート
+	setCurrent();
+	
+	function setCurrent(){
+		
+		ws.onmessage = function(event) {
+			var current = event.data.substring(0,1);
+			//alert(current);
+			
+	    	if(current > -1){
+	    		document.getElementById('text' + current).value = event.data.substring(1);
+		        // textとbtのdisableを有効に
+	    		text[current].disabled = true;
+				bt[current].disabled = true;
+	    		current++;
+	    		/*
+				if(current == 1){
+			        document.getElementById('text0').value = event.data.substring(1);
+				}
+				if(current == 2){
+			        document.getElementById('text1').value = event.data.substring(1);
+				}
+				if(current == 3){
+			        document.getElementById('text2').value = event.data.substring(1);
+				}
+	    		if(current == 4){
+			        document.getElementById('text3').value = event.data.substring(1);
+				}
+	    		if(current == 5){
+			        document.getElementById('text4').value = event.data.substring(1);
+				}*/
+		        //alert(current);
+				if(current > 4){
+					finish.disabled = false;
+					// 終了処理
+					return;
+				}else{
+					// 一つ先のtextとbtのdisableを解除
+	    			text[current].disabled = false;
+					bt[current].disabled = false;
+					current--;
+				}
+    		}
+       	}
+		//alert(current);
+       
+       	//結果表示のdisableを解除する
+		/*
+		console.log(current);
+		text[current].disabled = false;
+		bt[current].disabled = false;
+		text[current].onkeyup = function(event){
+			var txt = text[current].value;
+			var count = txt.length;
+			out.value = count;
+		}
+		*/
+		current++;
+       	bt[0].onclick = function(event){
+			// デフォルトの動作が実行されないようにする
+			//event.preventDefault();
+			//var txt = new String(text[current].value);
+			var txt = document.getElementById('text0').value;
+			//alert(txt);
+			var count = txt.length;
+			//alert(count);
+			//out.value = count;
+			if(count == tanka[0]){
+				//内容をサーバーに送る
+				//alert(current);
+   			    ws.send('0' + txt);
+				//alert(current);
+				setCurrent();
+			}
+		}
+		
+       	bt[1].onclick = function(event){
+			// デフォルトの動作が実行されないようにする
+			//event.preventDefault();
+			//var txt = new String(text[current].value);
+			var txt = document.getElementById('text1').value;
+			//alert(txt);
+			var count = txt.length;
+			//alert(count);
+			//out.value = count;
+			if(count == tanka[1]){
+				//内容をサーバーに送る
+				//alert(current);
+   			    ws.send('1' + txt);
+				//alert(current);
+				setCurrent();
+			}
+		}
+       	bt[2].onclick = function(event){
+			// デフォルトの動作が実行されないようにする
+			//event.preventDefault();
+			//var txt = new String(text[current].value);
+			var txt = document.getElementById('text2').value;
+			//alert(txt);
+			var count = txt.length;
+			//alert(count);
+			//out.value = count;
+			if(count == tanka[2]){
+				//内容をサーバーに送る
+				//alert(current);
+   			    ws.send('2' + txt);
+				//alert(current);
+				setCurrent();
+			}
+		}
+       	bt[3].onclick = function(event){
+			// デフォルトの動作が実行されないようにする
+			//event.preventDefault();
+			//var txt = new String(text[current].value);
+			var txt = document.getElementById('text3').value;
+			//alert(txt);
+			var count = txt.length;
+			//alert(count);
+			//out.value = count;
+			if(count == tanka[3]){
+				//内容をサーバーに送る
+				//alert(current);
+   			    ws.send('3' + txt);
+				//alert(current);
+				setCurrent();
+			}
+		}
+       	bt[4].onclick = function(event){
+			// デフォルトの動作が実行されないようにする
+			//event.preventDefault();
+			//var txt = new String(text[current].value);
+			var txt = document.getElementById('text4').value;
+			//alert(txt);
+			var count = txt.length;
+			//alert(count);
+			//out.value = count;
+			if(count == tanka[4]){
+				//内容をサーバーに送る
+				//alert(current);
+   			    ws.send('4' + txt);
+				//alert(current);
+				setCurrent();
+			}
+		}
+	}
+</script>
+<!--
+<script>
+	
+    var ws = new WebSocket('@@{Main.WebSocketEcho.listen()}');
+    var isInit = new Boolean(false);
+    /*
+    if(isInit == false){
+//    alert("動いてないよ");
+	    ws.send(" ");
+	    isInit = true;
+	    }
+    */
+	
+    ws.onmessage = function(event) {
+        document.getElementById('text0').value = event.data;
+    };
+	
+    $('#submit0').click(function() {
+        var $text = $('#text0');
+        ws.send($text.val());
+    });
+</script>
+
+#{script src:"main.js" /}
+-->
+</body>
